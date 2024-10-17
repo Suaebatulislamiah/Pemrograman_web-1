@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header, footer {
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.search-container {
+    text-align: right;
+    margin-right: 10px;
+}
+.search-container input[type="text"] {
+    padding: 5px;
+}
+.logo img{
+    width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0px;
+}
+.slider {
+    width: 100%;
+    height: 400px;
+    background-color: #ebe4e4;
+    text-align: center;
+    line-height: 300px;
+    font-size: 24px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.slider img{
+    width: 100%;
+    height :400px;
+
+}
+.product-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.product-section .product {
+    display: inline-block;
+    width: 20%;
+    margin: 0 5%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.product img {
+    width: 100%;
+    height: 1;
+    border-radius: 1px;
+}
+.product h3 {
+    margin: 10px 0;
+}
+.product p {
+    font-size: 15px;
+    color: #222020;
+}
+.product button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.trending-products {
+    text-align: center;
+    margin-top: 30px;
+}
+.trending-products .product-mini {
+    display: inline-block;
+    width: 10%;
+    margin: 0 1%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.product-mini img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
